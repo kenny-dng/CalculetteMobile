@@ -52,13 +52,6 @@ calculator-app/
 - JavaScript/TypeScript
 - File-based routing d'Expo
 
-## Développement
-
-Pour modifier l'application, vous pouvez éditer les fichiers dans le dossier **app**. Le projet utilise le [file-based routing](https://docs.expo.dev/router/introduction) d'Expo pour la navigation.
-
-## Contribuer
-
-Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou soumettre une pull request.
 
 ## En savoir plus
 
@@ -66,16 +59,3 @@ Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou so
 - [Documentation React Native](https://reactnative.dev/)
 - [Guide du file-based routing](https://docs.expo.dev/router/introduction/)
 
-## Support
-
-Si vous rencontrez des problèmes ou avez des questions :
-- Ouvrez une issue sur le repository
-- Rejoignez la [communauté Expo sur Discord](https://chat.expo.dev)
-
-## Licence
-
-Ce projet est sous licence [MIT](LICENSE).
-
----
-
-Créé avec ❤️ en utilisant Expo et React Native.
