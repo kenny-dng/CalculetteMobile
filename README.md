@@ -1,50 +1,80 @@
-# Welcome to your Expo app 👋
+# Calculatrice React Native avec Expo 🧮
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Une application de calculatrice simple et élégante créée avec [Expo](https://expo.dev) et React Native. Cette calculatrice offre une interface utilisateur intuitive inspirée du design iOS.
 
-## Get started
+<p align="center">
+  <img src="./calculette.png" width="400" alt="Calculette Preview">
+</p>
 
-1. Install dependencies
+## Fonctionnalités
 
-   ```bash
-   npm install
-   ```
+- Opérations arithmétiques basiques (+, -, ×, ÷)
+- Interface utilisateur épurée et moderne
+- Boutons C (effacer) et AC (tout effacer)
+- Support des nombres décimaux
+- Design responsive adapté aux différentes tailles d'écran
 
-2. Start the app
+## Pour commencer
 
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+1. Clonez le repository et installez les dépendances
 ```bash
-npm run reset-project
+git clone [votre-repo]
+cd calculator-app
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Lancez l'application
+```bash
+npx expo start
+```
 
-## Learn more
+L'application peut être exécutée sur :
+- Un appareil physique via [Expo Go](https://expo.dev/go)
+- Un [émulateur Android](https://docs.expo.dev/workflow/android-studio-emulator/)
+- Un [simulateur iOS](https://docs.expo.dev/workflow/ios-simulator/)
+- Un [build de développement](https://docs.expo.dev/develop/development-builds/introduction/)
 
-To learn more about developing your project with Expo, look at the following resources:
+## Structure du projet
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```
+calculator-app/
+├── app/                # Dossier principal de l'application
+├── assets/            # Images, fonts et autres ressources
+├── components/        # Composants React réutilisables
+└── ...
+```
 
-## Join the community
+## Technologies utilisées
 
-Join our community of developers creating universal apps.
+- React Native
+- Expo
+- JavaScript/TypeScript
+- File-based routing d'Expo
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Développement
+
+Pour modifier l'application, vous pouvez éditer les fichiers dans le dossier **app**. Le projet utilise le [file-based routing](https://docs.expo.dev/router/introduction) d'Expo pour la navigation.
+
+## Contribuer
+
+Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou soumettre une pull request.
+
+## En savoir plus
+
+- [Documentation Expo](https://docs.expo.dev/)
+- [Documentation React Native](https://reactnative.dev/)
+- [Guide du file-based routing](https://docs.expo.dev/router/introduction/)
+
+## Support
+
+Si vous rencontrez des problèmes ou avez des questions :
+- Ouvrez une issue sur le repository
+- Rejoignez la [communauté Expo sur Discord](https://chat.expo.dev)
+
+## Licence
+
+Ce projet est sous licence [MIT](LICENSE).
+
+---
+
+Créé avec ❤️ en utilisant Expo et React Native.
