@@ -35,15 +35,6 @@ L'application peut être exécutée sur :
 - Un [simulateur iOS](https://docs.expo.dev/workflow/ios-simulator/)
 - Un [build de développement](https://docs.expo.dev/develop/development-builds/introduction/)
 
-## Structure du projet
-
-```
-calculator-app/
-├── app/                # Dossier principal de l'application
-├── assets/            # Images, fonts et autres ressources
-├── components/        # Composants React réutilisables
-└── ...
-```
 
 ## Technologies utilisées
 
