@@ -3,7 +3,7 @@
 Une application de calculatrice simple et élégante créée avec [Expo](https://expo.dev) et React Native. Cette calculatrice offre une interface utilisateur intuitive inspirée du design iOS.
 
 <p align="center">
-  <img src="./calculette.png" width="400" alt="Calculette Preview">
+  <img src="./calculette.png" width="300" alt="Calculette Preview">
 </p>
 
 ## Fonctionnalités
